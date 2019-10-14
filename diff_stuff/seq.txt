@@ -1,0 +1,155 @@
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        286
+# of rows removed:        9
+# of rows used:           277
+total # of elements used: 2770
+training data size:       193  69.6751%
+testing  data size:       84  30.3249%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00206399
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is inv-nodes == 0-2?| best-gain=0.0273761
+[QUESTION] Is tumor-size == 45-49?| best-gain=0.00976957
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is node-caps == no?| best-gain=0.00768293
+[QUESTION] Is breast-quad == left_up?| best-gain=0.00204539
+[QUESTION] Is tumor-size == 50-54?| best-gain=0.0293682
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 15-19?| best-gain=0.0124055
+[QUESTION] Is breast == left?| best-gain=0.177778
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is menopause == lt40?| best-gain=0.02
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is deg-malig == 3?| best-gain=0.0113637
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 25-29?| best-gain=0.0142727
+[QUESTION] Is menopause == premeno?| best-gain=0.0653061
+[QUESTION] Is age == 40-49?| best-gain=0.0355556
+[QUESTION] Is deg-malig == 2?| best-gain=0.0185185
+[QUESTION] Is breast == left?| best-gain=0.00966188
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is menopause == ge40?| best-gain=0.00361315
+[QUESTION] Is deg-malig == 2?| best-gain=0.0045654
+[QUESTION] Is tumor-size == 20-24?| best-gain=0.0367347
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast == left?| best-gain=0.0333334
+[QUESTION] Is tumor-size == 30-34?| best-gain=0.0444445
+[QUESTION] Is age == 60-69?| best-gain=0.166667
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is menopause == premeno?| best-gain=0.00353803
+[QUESTION] Is breast-quad == left_low?| best-gain=0.00934054
+[QUESTION] Is age == 40-49?| best-gain=0.00465938
+[QUESTION] Is deg-malig == 2?| best-gain=0.0153061
+[QUESTION] Is tumor-size == 10-14?| best-gain=0.0044643
+[QUESTION] Is breast == left?| best-gain=0.00966188
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast == right?| best-gain=0.0555556
+[QUESTION] Is deg-malig == 1?| best-gain=0.0277778
+[QUESTION] Is tumor-size == 20-24?| best-gain=0.0714286
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 5-9?| best-gain=0.0177778
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 40-44?| best-gain=0.00777779
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast-quad == right_up?| best-gain=0.00637755
+[QUESTION] Is tumor-size == 30-34?| best-gain=0.0142046
+[QUESTION] Is breast == left?| best-gain=0.111111
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is deg-malig == 3?| best-gain=0.0384616
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 30-34?| best-gain=0.00434022
+[QUESTION] Is breast == right?| best-gain=0.03125
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is deg-malig == 2?| best-gain=0.0178572
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 35-39?| best-gain=0.213333
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is tumor-size == 50-54?| best-gain=0.444444
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is menopause == premeno?| best-gain=0.0732483
+[QUESTION] Is deg-malig == 3?| best-gain=0.066482
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is node-caps == no?| best-gain=0.0714286
+[QUESTION] Is inv-nodes == 3-5?| best-gain=0.0367347
+[QUESTION] Is tumor-size == 25-29?| best-gain=0.0533333
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast-quad == left_low?| best-gain=0.5
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast-quad == left_up?| best-gain=0.111111
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is inv-nodes == 9-11?| best-gain=0.1
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast-quad == left_low?| best-gain=0.08
+[QUESTION] Is age == 50-59?| best-gain=0.0714286
+[QUESTION] Is tumor-size == 20-24?| best-gain=0.0444445
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is breast-quad == left_up?| best-gain=0.0793388
+[QUESTION] Is deg-malig == 2?| best-gain=0.213333
+[QUESTION] Is tumor-size == 40-44?| best-gain=0.177778
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+[QUESTION] Is class == NO-QUESTION-FOUND?| best-gain=1e-11
+Number of Nodes Created = 109
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.202386
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 98.4456 percent correct
+[TESTING  DATA RESULTS] = 59.5238 percent correct
+--------------------------------------------------
+time to test results: 0.000271082
+
+
+
+target      : irradiat
+target index: 9
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.202386
+[Finished the Program!]

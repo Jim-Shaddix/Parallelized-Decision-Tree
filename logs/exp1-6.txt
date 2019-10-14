@@ -1,0 +1,1775 @@
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00139403
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0133309
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 8.70228e-05
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0133309
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00117207
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.014045
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000112057
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.014045
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00131488
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0166562
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000118017
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0166562
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00108695
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0193679
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000136852
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0193679
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000813961
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0187769
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000172853
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0187769
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00109482
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.01442
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 8.98838e-05
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.01442
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00166297
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.013201
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000194788
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.013201
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00106812
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0106368
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00019598
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0106368
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000879049
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00773287
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000164032
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00773287
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00118995
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00698519
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000181913
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00698519
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 1000
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000946999
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00667691
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000207901
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00667691
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00150609
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0111132
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000102043
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0111132
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00211978
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0137181
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00014782
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0137181
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000682116
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00986314
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000103951
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00986314
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00118399
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00769997
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000103951
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00769997
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00109005
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00685
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000136137
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00685
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 1100
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000813007
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0077939
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000265121
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0077939
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00119305
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0167761
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000127077
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0167761
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00223517
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.016917
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00013113
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.016917
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00102401
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0128682
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000317812
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0128682
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00105906
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.011117
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000356913
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.011117
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00109792
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00998688
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000120163
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00998688
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 1200
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00112605
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0078249
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000290871
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0078249
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00106907
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.019098
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000148058
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.019098
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000940084
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0155258
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.00014019
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0155258
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000879049
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.013793
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000271797
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.013793
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00128603
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0130219
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000370979
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0130219
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000874996
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.009583
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000254869
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.009583
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 1300
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00137091
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00914311
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 94.8718 percent correct
+--------------------------------------------------
+time to test results: 0.000173092
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00914311
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00127506
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0176389
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000172138
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0176389
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000962973
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0193272
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000307083
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0193272
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00160694
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.016434
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000180006
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.016434
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00127292
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.014432
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000221014
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.014432
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.000969172
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0123141
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.00017786
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0123141
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   irradiat
+Target index:             9
+# of attributes:          10
+# of rows read in:        150
+# of rows removed:        1
+# of rows used:           149
+total # of elements used: 1490
+training data size:       104  69.7987%
+testing  data size:       45  30.2013%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00164795
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 1
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0111759
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 75.5556 percent correct
+--------------------------------------------------
+time to test results: 0.000177145
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0111759
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 2300
+training data size:       70  70%
+testing  data size:       30  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00126386
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is odor == 0?
+[QUESTION] Is poisonous == 0?
+[QUESTION] Is poisonous == 0?
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000114918
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 46.6667 percent correct
+--------------------------------------------------
+time to test results: 3.09944e-05
+
+
+
+--------------------------------------------------------------------------------
+
+[Finished the Program!]
+
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 2530
+training data size:       77  70%
+testing  data size:       33  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00163293
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is odor == 0?
+[QUESTION] Is poisonous == 0?
+[QUESTION] Is poisonous == 0?
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 9.5129e-05
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 39.3939 percent correct
+--------------------------------------------------
+time to test results: 2.38419e-05
+
+
+
+--------------------------------------------------------------------------------
+
+[Finished the Program!]
+
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 2760
+training data size:       84  70%
+testing  data size:       36  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00135994
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is odor == 0?
+[QUESTION] Is poisonous == 0?
+[QUESTION] Is poisonous == 0?
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000100851
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 41.6667 percent correct
+--------------------------------------------------
+time to test results: 2.19345e-05
+
+
+
+--------------------------------------------------------------------------------
+
+[Finished the Program!]
+
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 2990
+training data size:       91  70%
+testing  data size:       39  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00119901
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is odor == 0?
+[QUESTION] Is poisonous == 0?
+[QUESTION] Is poisonous == 0?
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 8.51154e-05
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 43.5897 percent correct
+--------------------------------------------------
+time to test results: 1.90735e-05
+
+
+
+--------------------------------------------------------------------------------
+
+[Finished the Program!]
+
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        150
+# of rows removed:        0
+# of rows used:           150
+total # of elements used: 3450
+training data size:       105  70%
+testing  data size:       45  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00139999
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+[QUESTION] Is odor == 0?
+[QUESTION] Is poisonous == 0?
+[QUESTION] Is poisonous == 0?
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000118017
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 42.2222 percent correct
+--------------------------------------------------
+time to test results: 2.59876e-05
+
+
+
+--------------------------------------------------------------------------------
+
+[Finished the Program!]
+

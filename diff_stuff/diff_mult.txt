@@ -1,0 +1,22 @@
+17c17
+< time to read in data: 0.00619888
+---
+> time to read in data: 0.00294304
+117,118c117,118
+< [QUESTION] Is inv-nodes == 6-8?| best-gain=0.0367347
+< [QUESTION] Is breast-quad == left_up?| best-gain=0.5
+---
+> [QUESTION] Is breast-quad == left_low?| best-gain=0.0367347
+> [QUESTION] Is inv-nodes == 3-5?| best-gain=0.0555556
+135c135
+< algorithm build time: 0.0873451
+---
+> algorithm build time: 0.0877011
+144c144
+< time to test results: 0.000197887
+---
+> time to test results: 0.00020504
+152c152
+< algorithm build time: 0.0873451
+---
+> algorithm build time: 0.0877011

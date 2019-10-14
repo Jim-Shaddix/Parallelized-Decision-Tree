@@ -1,0 +1,577 @@
+% NOTES: {{{
+%cite somethin in bibliography \cite{Kittel}
+%we will also use inline citations: Hoffman, in Ref. %~\onlinecite{Hoffman}
+% Start each main section with \section{}. For subsections, use \subsection.
+
+%An un-numbered equation is handled differently: 
+%\[
+%i\hbar\frac{\partial\psi}{\partial t}=\frac{\hbar^{2}}{2m}\nabla^{2}\psi+V(\mathbf{r})\psi
+%\]
+
+% Numberred Equation
+%\begin{equation}
+%i\hbar\frac{\partial\psi}{\partial t}=\frac{\hbar^{2}}{2m}\nabla^{2}\psi+V(\mathbf{r})\psi\label{eq:schroedinger}
+%\end{equation}
+%}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% {{{
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% WikiBooks (http://en.wikibooks.org/wiki/LaTeX/Title_Creation)
+%
+% 2) Remove everything outside the \begin{titlepage} and \end{titlepage} and 
+% move this file to the same directory as the LaTeX file you wish to add it to. 
+% Then add \input{./title_page_1.tex} to your LaTeX file where you want your
+% title page.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }}}
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% IMPORTS
+% {{{
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx} % allow for images
+\usepackage{booktabs}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\usepackage{float}    %H option for figures
+\usepackage{siunitx}  %degree symbol with \ang{}
+\usepackage{subfig}   %sub figures
+\usepackage{hyperref}
+\usepackage[margin=1.25in]{geometry}
+\graphicspath{{images/}}
+\newcommand{\eqname}[1]{\tag*{#1}}% Tag equation with name
+% https://tex.stackexchange.com/questions/128050/add-equation-name-underneath-equation-number?rq=1
+% }}}
+
+
+
+\begin{document}
+
+% Title Page
+% {{{
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE Colorado State University}\\[1.5cm] % Name of your university/college
+\textsc{\Large Parallel Programming}\\[0.5cm] % Major heading such as course name
+\textsc{\Large CS-475}\\[0.5cm] % Major heading such as course name
+\textsc{\Large Final Project}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+    { \huge \bfseries Parallel Decision Tree Classifier \vspace{0.5cm}\\ With OpenMP}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Co-Author:}\\
+James \textsc{Shaddix}\\
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Co-Author:} \\
+Tanveer \textsc{Hussain} 
+\end{flushright}
+\end{minipage}\\[2cm]
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	DATE SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \today}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	LOGO SECTION
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=4cm,height=4cm,angle=0]{csu-logo.png} 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with white-space
+
+\end{titlepage}
+% }}}
+
+\begin{abstract}
+    \noindent For our project, we designed a Decision Tree Classifier. The decision tree
+    algorithm, is a popular algorithm used in machine learning for 
+    classification experiments. We developed our first pass of the algorithm
+    in C++ by using some reference code that we found online that was written
+    in python \cite{base}. We than parallized our code using openMP, and we display our 
+    results for various different file sizes in this paper. We than re-wrote
+    the algorithm in a more efficient manner, in order to decrease the run-time
+    of the program, and to make our program less data dependent. By decreasing our 
+    data dependence, we hoped to increase the speedup of the program when we parallized
+    it.
+\end{abstract}
+\section{Algorithm Description}
+\subsection{Machine Learning Basics}
+Before we explain how the Decision Tree Classifier works, it is important to 
+first understand some basic concepts of machine learning. Machine learning 
+algorithms use large repositories of data, in order to construct an 
+algorithm. In particular, machine learning algorithms generally work by looking
+at old data sets, in order to make predictions as to what will happen in the 
+future. However, this means that your algorithm will vary with the data 
+that you use for your experiment (this is important to note, as it is a result 
+of this that we struggled with doing portions of our analysis). 
+
+Machine learning algorithms work in two different phases. The first phase is 
+the \textbf{training phase}. During the training phase, the algorithm that will
+be used to make predictions is constructed. During this phase, your program
+analyzes all of the data that you would like your model to be based on, and
+a model is created. The second phase is the  \textbf{testing phase}. During this
+phase, you use your model on some sample data that you already have results for,
+in order to see how often your model reproduces the correct results. This 
+provides you with an idea as to how well your algorithm is performing. 
+
+In general, machine learning algorithms are either used for 
+\textbf{classification experiments}, or  \textbf{regression experiments}. 
+Classification  experiments our used to make predictions on discrete categories.
+while regression experiments are used to make predictions on continuous sets
+of data. Most machine learning algorithms can only perform one of these two 
+types of experiments, but the decision tree algorithm can be designed for either
+of these experiments. However, the decision tree algorithm tends to see its 
+best results when designed for classification experiments, and that is why we
+decided to build a decision tree classifier for out project.
+
+Most machine learning algorithms fall into one of three different categories:
+\textbf{supervised learning}, \textbf{unsupervised learning}, 
+\textbf{reinforcement learning}. Supervised learning algorithms are used for 
+labeled data sets. In particular, this means that the data that you are using to
+train your algorithm has labels associated with the features that you are 
+trying to predict on. You can than use this the labels in your testing phase
+to determine what percentage of your data you are classifying correctly.
+Unsupervised learning algorithms are used for data with unlabelled data sets. 
+These algorithms tend to revolve around using statistical techniques to make
+there predictions. Reinforcement learning algorithms build there model through
+system of trial and error. You generally specify how many iterations you would
+like to use to build your algorithm, and than you have your algorithm modify itself
+when it performs an incorrect prediction.
+
+
+\subsection{Decision Tree Algorithm}
+The Decision Tree algorithm is a \textbf{supervised learning} algorithm that is
+commonly used in machine learning for classification experiments. A decision
+tree is generally a binary tree that is composed of a \textbf{root node} at the top, 
+followed by layers of \textbf{decision nodes}, with \textbf{leaf nodes} at 
+the bottom of each  branch. All of the nodes in a decision tree, except for 
+the leaf nodes, contain a question with a binary output that is used to 
+parse the data. All of the leaf nodes have an associated classification.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{titanic}
+    \caption{This is an example of a decision tree \cite{dec}. This is a decision tree 
+    that was trained on a data set associated with the passengers of the titanic to determine which 
+    passengers survived. The question "is sex male", is associated with the
+    root node, and all of the other questions are associated with decision nodes.
+    All of the leaf nodes contain a particular classification which in this
+    case is either "survived" or "died".}
+    \label{fig:dtree}
+\end{figure}	
+
+\subsection{Testing Phase}
+In order to use a decision tree, all of the data that needs to be classified 
+is passed to the root node. The data is than parsed based on the binary 
+categorization of the question, and, based on the results, the parsed 
+information is passed on to the next two nodes. This process is continued 
+until all the data has arrived at a leaf node. Once a data element has arrivied
+at a leaf node, we use the class associated with the leaf node as 
+the prediction for what class that particular data element belongs to.
+
+\subsection{Training Phase}
+In this section, we will discuss how to build a decision tree.
+In order to build a decision tree, you need to come up with a method for 
+determining what question should be asked at each node. The goal of the 
+question is to split the data into two sets, such that you get the purest 
+possible mixings of dependent variables in each set. There are a handful of 
+of different tree building algorithms that are commonly used for determining 
+the questions that should be asked. Each of these algorithms vary slightly 
+in the way that they decide on what question should be asked at a particular 
+node. A few of the more common algorithms include: CART (Classification and 
+Regression Tree), ID3 (Iterative Dichotomiser 3), and CHAID (Chi-Squared Adaptive
+Regression Spines). All of these algorithms are greedy algorithms that use
+a metric referred to as \textbf{information gain}, that quantifies how good a question 
+is at parsing data into more homogeneous sets. For our project, we used the 
+CART algorithm to build our decision tree.
+
+\subsubsection{CART Algorithm:}
+The CART algorithm considers a set of candidate questions at a 
+particular node, and chooses the question that provides the largest 
+information gain. The CART algorithm considers every value in a data-set
+at a particular node as being a boundary value, and each of these boundary
+values represents a candidate question. There is an example below that explains
+how exactly this works.
+
+\begin{table}[H]
+    \center
+    \begin{tabular}{l|lrl}
+    \toprule
+    {} &  Color &  Size &      Type \\
+    \midrule
+    0 &   Blue &     2 &  Friendly \\
+    1 &   Blue &     5 &  Friendly \\
+    2 &  Green &     7 &  TeamMate \\
+    3 &    Red &    10 &     Enemy \\
+    \bottomrule
+    \end{tabular}
+    \caption{For out example, we will consider this data set as being all of the data
+    at a particular node. We will consider a decision tree whose dependet variable we are 
+    trying to classify on is "Type". We now need to find all of the candidate questions associated
+    with this data by considering each value in the table associated with our independent variables
+    as being a boundary value.}
+\end{table}
+
+\begin{table}[H]
+    \center
+    \begin{tabular}{ll}
+    \toprule
+    {} Color &  Size      \\
+    \midrule
+    is color == Blue  &  is size $>=$   2 \\
+    is color == Blue  &  is size $>=$   5 \\
+    is color == Green &  is size $>=$   7 \\
+    is color == Red   &  is size $>=$  10 \\
+    \bottomrule
+    \end{tabular}
+    \caption{These are the eight questions that would be generated from the
+    data-set given above. It is important to note here that there is a duplicate
+    question, but this degeneracy will not harm the correctness of the algorithm.}
+\end{table}
+
+In order to determine the best question, The CART algorithm uses \textbf{Gini Impurity}  in order to calculate the information gain. Gini Impurity quantifies the amount of impurity at a particular node. In particular, gini impurity calculates your chance of drawing two elements with 
+replacement, and having their "Types" (or whatever variable you are using as your dependent variable) not match. The goal of the decision tree algorithm is to come up with questions that will minimize the Gini Impurity in the child nodes. We can calculate the Gini Impurity by summing over the probabilities of picking each class, multiplied by the probability of miss-classifying each class.
+
+\begin{itemize}
+    \item J = number of classes
+    \item $p_{i} =$ probability of picking a particular class i
+    \item $p_{k} = (1-p_{i}) =$ probability of miss-classifying a random data point, with class i
+    \item $G(p_{i}) =$ Gini Impurity
+\end{itemize}
+
+
+
+
+$$
+G(p_{i}) = \sum_{i=1}^{J}p_{i}p_{k} = \sum_{i=1}^{J}p_{i}(1-p_{i}) = \sum_{i=1}^{J}p_{i} - \sum_{i=1}^{J}p_{i}^{2} = 1 - \sum_{i=1}^{J}p_{i}^{2}
+$$
+
+\begin{align}
+    \boxed{G(p_{i}) = 1 - \sum_{i=1}^{J}p_{i}^{2}} 
+    \\ \eqname{Gini Impurity}
+\end{align}
+We can than use the Gini Impurity to calculate the information gain. The information gain of a particular question is the Gini Impurity of node containing the question, minus the weighted average Gini Impurity of the child nodes.
+
+\begin{itemize}
+    \item $I$ = information gain
+    \item $G(p_{i})_{p} =$  Gini Impurity of parent node
+    \item $G(p_{i})_{c1} =$ Gini Impurity of child node 1
+    \item $G(p_{i})_{c2} =$ Gini Impurity of child node 2
+    \item $w_{1} = \frac{samples\ in\ parent\ node}{samples\ in\ child\ node\ 1}$
+    \item $w_{2} = \frac{samples\ in\ parent\ node}{samples\ in\ child\ node\ 2}$ 
+\end{itemize}
+
+\begin{align}
+    \boxed{$$ I = G(p_{i})_{p} - [w_{1}*G(p_{i})_{c1} + w_{2}*G(p_{i})_{c2}]$$} 
+    \\ \eqname{Information Gain}
+\end{align}
+We than use the information gain as the cost function to determine which question to use. We pick the question with the largest information gain. We can than recurse
+down in our program until we arrive at a node that is totally pure.
+
+
+\section{Experiments Planned}
+
+\subsection{Basic Decision Tree Classifier}
+We built are Decision Tree Classifier based off of Josh Gordons python approach \cite{base}. We used similar techniques to him to build our Decision Tree but we
+built are decision tree so that it would only use classification data, as opposed to 
+both classification and regression data. We chose to make this simplification
+after we finished writing our sequential program more generally, because we realized
+that if we were going to write an improved version of our code, we would have to 
+treat both of these types of data separately, and this was not going to feasible under the time constraints of this project.
+
+Josh Gordon's algorithm is displayed on his website as a means for teaching people 
+how decision trees work. In his algorithm (and in ours) he considers every value
+in his set of independent variables as being a particular boundary value (similar
+to the example I proposed in the Chart Algorithm section). As a result, this means that there are $n*(m-1)$ questions at every depth of the tree where no leaf nodes have
+been found yet. Here n represents the number of elements in the data-set, and (m-1) represents the number of attributes in the data-set that aren't the attributes that we are classifying 
+on. With every question, we than need to split up the data based on the question to determine the
+information gain of each question. The time complexity associated with iterating through all
+of our elements and splitting them based on a question is $\beta$, where $\beta$ represents the number of 
+elements at a given node. The problem with going any further with determining the complexity
+of this program, is that $\beta$ is some fraction of n, that we cannot know until we have built algorithm. Here lies the essential problem with determining the complexity of Machine Learning programs. 
+Since the algorithm is developed based on the set of the data that is given to it, it is difficult to
+determine the exact complexity of the algorithm, until it has been built. The number of questions
+would also change as traverse into the tree and leaf nodes are encountered.
+
+\subsection{Parallel Decision Tree Classifier}
+For our parallel implementation of the decision tree, we decided that we
+would parallize the training phase of the algorithm. We decided to parallize 
+the training phase as opposed to the classification phase, because, as is
+generally the case with machine learning algorithms, the training phase takes
+substantially more time.
+
+During the training phase, there are two essential operations that are being
+done at every decision node in our program. 
+
+\begin{enumerate}
+    \item They determine what the best question is to ask from a set of candidate
+    questions.
+    \item They split the data up based on what the best candidate question is.
+\end{enumerate}
+For our parallel implementation, we parallized the portion of the code that 
+determined what the best candidate question is. We did this because we found
+that this portion of code comprised the majority of the run-time of our program,
+and because the separation of data is an inherently sequential operation. We 
+were able to do this by by using a \texttt{pragma omp for} command on the outer
+loop that iterated through our matrix questions. We made sure to situate the loops 
+so that the inner loop iterated across a single array of elements, rather than 
+across all of the arrays in our matrix, in order to make better use of locality.
+We also added \texttt{pragma omp critical sections} in the areas where we modified 
+shared variables (such as the variable that stored the current best question), so
+that we could eliminate any race conditions that may otherwise occur. 
+
+We also timed the sequential and parallel portions of our code, in order to determine 
+what possible speed-up would be obtainable by our program. We found that the parallel
+portion of our code comprised 99.9\% of the run-time of our program, while the sequential portion of our program only comprised the other 0.01\% of the run-time. We can than use Amdahl's Law in order to figure the potential speed up of our program.
+\begin{itemize}
+\item $\psi$ = speed up
+\item f = sequential fraction of the code = 0.001
+\item (1-f) = parallelizable fraction of the code = 0.999
+\item p = number of the threads run on the program (we used up to eight threads for
+      our experiments)
+\end{itemize}
+
+\begin{align}
+    \boxed{\psi \leq \frac{1}{f+\frac{(1-f)}{p}}} 
+    \\ \eqname{Amdahl's Law}
+\end{align}
+
+\begin{center}
+    For our experiment, the best speed-up we may obtain is:
+\end{center}
+$$\psi \leq \frac{1}{0.001 + \frac{0.999}{8}} = 7.94$$
+
+This value represents the theoretical speed-up that may obtain, but this expression
+does not take into account the sequential nature of the critical statement in our program, the time to spawn the threads at every node, or the fact that our code
+may have an upper bound on the speedup that is associated with data dependence on our
+program.
+
+\subsection{Improved Decision Tree Classifier}
+In order to improve the run-time and data dependence of our classifier, rather
+than searching through every at a given node, I instead stored a count associated
+the number of times a unique classification existed at a node inside of an array.
+I than updated that array by subtracting elements from it whenever we separated the data. This meant that we could separate our data much faster, and because I was only storing counts associated with unique value, instead of the entire matrices of values, I had much fewer questions to consider at every node, because there would 
+be a question associated with every unique value that we are trying to classify on,
+as opposed to an entire matrix of values.
+
+
+\subsection{Experimental Setup}
+We performed all of our experiments on a machine in the Colorado State University
+Computer Science Building. Specific information about the machine we used is given
+below.
+\begin{itemize}
+    \item Host-Name: tuna
+    \item Number of Cores: 12
+    \item Cache Sizes: (L1d: 32K) (L1i: 32K) (L2: 256K) (L3: 15360K)
+\end{itemize}
+
+\subsection{Code}
+We generated a single executable for each of the three different programs that 
+we created. In total, we wrote roughly 3-4 thousand line of C++ code creating 
+this project, as well as several hundred lines of the python code to compute all
+of our results. Details about the executables are given below.
+\begin{itemize}
+    \item decTree\_SEQ = This is file corresponds to our original sequential version
+    of the code. This file was compiled from the DecisionTree1.cpp file.
+    \item decTree\_PAR = This is file corresponds to the parallel version of our original sequential program. This file was compiled from the DecisionTree1p.cpp file.
+    \item decTree\_SEQ\_B = This is file corresponds to our improved sequential version of the code. This file was compiled from the DecisionTree2.cpp file.
+\end{itemize}
+
+All of these programs can be run without any arguments. However, all of these programs allow for a single command line argument that specifies how many elements
+will be read from the file when the program executes.
+
+\section{Experimental Results}
+
+\subsection{Basic Decision Tree Classifier}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lrr}
+    \toprule
+    {} &  rows &       time \\
+    \midrule
+    1 &  2000 &   10.56460 \\
+    2 &  4000 &   54.86040 \\
+    3 &  6000 &  135.02100 \\
+    4 &  8000 &  221.66200 \\
+    \bottomrule
+    \end{tabular}
+    \caption{These are the results that we found for the sequential program.}
+    \label{tab:my_label}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{runtime_decTree_SEQ.pdf}
+    \caption{This is a graph of the table represented above. Although we would have a difficult time trying to compute the complexity of our program, we can use the coeficient in our linear fit to find the complexity of our program here. From our results we can see that the complexity of our program is 0.036n.}
+    \label{fig:my_label}
+\end{figure}
+
+\subsection{Parallel Decision Tree Classifier}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lrrrr}
+    \toprule
+    {} &  threads &  rows &      time &  speed-up \\
+    \midrule
+    0 &        1 &  8000 &  221.7540 &  0.999585 \\
+    1 &        2 &  8000 &  146.4120 &  1.513961 \\
+    2 &        3 &  8000 &  109.7810 &  2.019129 \\
+    3 &        4 &  8000 &   89.9062 &  2.465481 \\
+    4 &        5 &  8000 &   85.4729 &  2.593360 \\
+    5 &        6 &  8000 &   79.4276 &  2.790743 \\
+    6 &        7 &  8000 &   80.9437 &  2.738471 \\
+    7 &        8 &  8000 &   79.8857 &  2.774739 \\
+    \bottomrule
+    \end{tabular}
+    \caption{We ran are parallel version of our program with row counts of 8000 across many different threads. The results are represented above.}
+    \label{tab:my_label}
+\end{table}
+
+% run-time
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{runtime_decTree_PAR.pdf}
+    \caption{From this graph we can that our program seems to be getting monatomically faster as we increase the thread count.}
+    \label{fig:my_label}
+\end{figure}
+
+
+
+% speed up
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{speedup_decTree_PAR.pdf}
+    \caption{This speed up plot of our results is very interesting. In the plot,
+    I have fit two sepperate linear lines. From the $R^2$ value for the first fit,
+    you can see that the speed up is increasing linearly. However, after four
+    threads, we see very little speed up. This is a results of the data dependence of the program!}
+    \label{fig:my_label}
+\end{figure}
+
+
+\subsection {Roofline analysis}
+
+\begin{itemize}
+    \item Maximum memory bandwidth: 59.7 GB/s
+
+\item number of bytes read/written in the find\_best\_question function
+
+\item total number of loop iterations done by find\_best\_question throughout the execution of the program = 2*n*m
+(where n is number of row of the data we are reading which is 8124 in our case and m is number of attributes-label of our data which is equal to 23-1=22)
+
+\item Reads =  n*m for each question asked and there will be  writes = 1 for each iteration. moreover, we are reading and writing strings of one character and  the number of bytes a string takes up is equal to the number of characters in the string plus 1 (the terminator), times the number of bytes per character. So, 2 bytes in total. 
+Total Giga Bytes:
+\end{itemize}
+
+
+ with n=8124 and m= 22  our bytes will be=  63 G Bytes. 
+ 
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{roofline_analysis.png}
+    \caption{This is a plot of the roofline analysis having bandwidth in GB on y axis and Number of threads on x axis.}
+    \label{fig:my_label2222}
+\end{figure}
+
+
+From the graph above we can see that 6 threads are required to saturate the bandwidth in this case.
+In our opinion program is memory bound and not compute bound because we can see that the program makes a lot of memory accesses than computation (only two operations). 
+
+
+\subsection{Improved Decision Tree Classifier}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{lrrr}
+    \toprule
+    {} &  rows &      time &       speed-up \\
+    \midrule
+    1 &  2000 &  0.000435 &   24293.417649 \\
+    2 &  4000 &  0.000768 &   71437.835473 \\
+    3 &  6000 &  0.001119 &  120672.982393 \\
+    4 &  8000 &  0.001612 &  137511.709420 \\
+    \bottomrule
+    \end{tabular}
+    \caption{These are the results for the improved sequential version of our code.}
+    \label{tab:my_label}
+\end{table}
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{runtime_decTree_SEQ_B.pdf}
+    \caption{From the plot, you can see that the our program appears to be 
+    increasing fairly linearly. Originally we had planned on making this program
+    run in parallel, however, since the program was already running so fast, there would not be any point in parallizing this program as the overhead of 
+    spawning the threads would take up all of the time.}
+    \label{fig:my_label}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=10cm,angle=0]{speedup_decTree_SEQ_B.pdf}
+    \caption{This is a plot of the speedup of our faster program across many different numbers of rows (the x-axis is labelled incorrectly, it should be row count).}
+    \label{fig:my_label}
+\end{figure}
+
+
+
+
+\section{Conclusion}
+For this project we performed three different experiments. For our first experiment,
+we created a sequentially run decision tree that was based off of a python script we found online. We were successfully able to re-create the script and we found the programs complexity was $O(n)$. For our second experiment, we parrallized our code, and we found there was an upper limit on the speedup as a results of our data dependence. For our final experiment, we found that we could re-write the algorithm in a much more efficient manner by mitigating the number of questions asked at each node. 
+
+\newpage
+\begin{thebibliography}{1}
+
+\bibitem{base} Random Forests Retrieved Dec 1, 2018, from 
+    \url{https://github.com/random-forests/tutorials/blob/master/decision_tree.ipynb}
+
+\bibitem{dec} Machine-learning-Decision-tree Retrieved Dec 3, 2018, from 
+    \url{https://intelligentjava.wordpress.com/2015/04/28/machine-learning-decision-tree/}
+
+\end{thebibliography}
+
+\end{document}

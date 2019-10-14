@@ -1,0 +1,210 @@
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+# of attributes:          23
+# of rows read in:        100
+# of rows removed:        0
+# of rows used:           100
+total # of elements used: 2300
+training data size:       69  69%
+testing  data size:       31  31%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00121498
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.10235
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000146151
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.10235
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+# of attributes:          23
+# of rows read in:        110
+# of rows removed:        0
+# of rows used:           110
+total # of elements used: 2530
+training data size:       76  69.0909%
+testing  data size:       34  30.9091%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0017879
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.120113
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000188828
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.120113
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+# of attributes:          23
+# of rows read in:        120
+# of rows removed:        0
+# of rows used:           120
+total # of elements used: 2760
+training data size:       83  69.1667%
+testing  data size:       37  30.8333%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00113702
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.144977
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000203133
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.144977
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+# of attributes:          23
+# of rows read in:        130
+# of rows removed:        0
+# of rows used:           130
+total # of elements used: 2990
+training data size:       90  69.2308%
+testing  data size:       40  30.7692%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00146699
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.177753
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000240088
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.177753
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+# of attributes:          23
+# of rows read in:        150
+# of rows removed:        0
+# of rows used:           150
+total # of elements used: 3450
+training data size:       104  69.3333%
+testing  data size:       46  30.6667%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00158715
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 3
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.245468
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.000301123
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.245468
+[Finished the Program!]

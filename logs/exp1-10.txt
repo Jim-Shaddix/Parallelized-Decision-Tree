@@ -1,0 +1,2200 @@
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00640106
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 3.73224
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00152206
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 3.73224
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00772095
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 10.5646
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00511193
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 10.5646
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.013984
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 54.8604
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0211048
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 54.8604
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0254769
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 135.021
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.053174
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 135.021
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0498848
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 221.662
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.103065
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 221.662
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00667596
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 3.82416
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00142503
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 3.82416
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00331616
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 2.40502
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.001513
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 2.40502
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.006742
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 1.81712
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00150514
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 1.81712
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00623202
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 1.49363
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00150704
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 1.49363
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00259686
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 1.25532
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00149298
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 1.25532
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00405097
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 1.08703
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00152206
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 1.08703
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00268412
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 1.05409
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00163913
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 1.05409
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00410199
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.990399
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.00206804
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.990399
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00541687
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 10.8819
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.0051949
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 10.8819
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00842309
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 6.71402
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00520706
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 6.71402
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0067389
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 5.10679
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00531602
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 5.10679
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00791097
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 4.02737
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00520205
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 4.02737
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.008425
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 3.48028
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00519586
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 3.48028
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00557494
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 2.93979
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00528097
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 2.93979
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00629687
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 3.04786
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00530505
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 3.04786
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00475979
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 2.76768
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 99.7573 percent correct
+--------------------------------------------------
+time to test results: 0.00544691
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 2.76768
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.014138
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 56.0274
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0217471
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 56.0274
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.014961
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 32.3069
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0217071
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 32.3069
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0200431
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 22.994
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0217052
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 22.994
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0188642
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 18.0802
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0217521
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 18.0802
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.013314
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 15.2426
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0214529
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 15.2426
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0174
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 13.3775
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0211091
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 13.3775
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.016814
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 12.2807
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0211279
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 12.2807
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0161262
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 11.3278
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0256231
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 11.3278
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.023284
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 136.671
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0525181
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 136.671
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0231268
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 81.2806
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.053148
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 81.2806
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.025429
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 58.5217
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.053916
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 58.5217
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0231459
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 48.3713
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0518801
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 48.3713
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0237751
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 42.6487
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0518219
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 42.6487
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0275919
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 38.3861
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.051373
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 38.3861
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0230319
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 37.3416
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.051863
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 37.3416
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0255048
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 36.7816
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.052201
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 36.7816
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.041064
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 221.754
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0982242
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 221.754
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0341229
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 146.412
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0985191
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 146.412
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.039572
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 109.781
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.108613
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 109.781
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.042948
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 89.9062
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.101799
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 89.9062
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0355771
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 85.4729
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.096628
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 85.4729
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.036684
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 79.4276
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.0966601
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 79.4276
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0357611
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 80.9437
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.102593
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 80.9437
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0390851
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 79.8857
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 100 percent correct
+--------------------------------------------------
+time to test results: 0.099211
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 79.8857
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        1000
+# of rows removed:        320
+# of rows used:           680
+total # of elements used: 15640
+training data size:       476  70%
+testing  data size:       204  30%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.00468493
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 13
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000697136
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 35.7843 percent correct
+--------------------------------------------------
+time to test results: 6.29425e-05
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.000697136
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        2000
+# of rows removed:        629
+# of rows used:           1371
+total # of elements used: 31533
+training data size:       959  69.9489%
+testing  data size:       412  30.0511%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0111451
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000434875
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 64.0777 percent correct
+--------------------------------------------------
+time to test results: 4.19617e-05
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.000434875
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        4000
+# of rows removed:        1213
+# of rows used:           2787
+total # of elements used: 64101
+training data size:       1950  69.9677%
+testing  data size:       837  30.0323%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0218198
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.000767946
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 15.4122 percent correct
+--------------------------------------------------
+time to test results: 7.20024e-05
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.000767946
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        6000
+# of rows removed:        1808
+# of rows used:           4192
+total # of elements used: 96416
+training data size:       2934  69.9905%
+testing  data size:       1258  30.0095%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.026015
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.0011189
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 8.74404 percent correct
+--------------------------------------------------
+time to test results: 0.00012207
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.0011189
+[Finished the Program!]
+
+--------------------------------------------------
+[STARTED] READING IN DATA
+
+Target:                   poisonous
+Target index:             0
+# of attributes:          23
+# of rows read in:        8124
+# of rows removed:        2480
+# of rows used:           5644
+total # of elements used: 129812
+training data size:       3950  69.9858%
+testing  data size:       1694  30.0142%
+
+[FINISHED] READING IN DATA:
+--------------------------------------------------
+time to read in data: 0.0408731
+
+
+
+--------------------------------------------------
+[STARTED] BUILDING DECISION TREE 
+
+Number of Nodes Created = 15
+
+[FINISHED] BUILDING DECISION TREE:
+--------------------------------------------------
+algorithm build time: 0.00161195
+
+
+
+--------------------------------------------------
+[RESULTS]
+[TRAINING DATA RESULTS] = 100 percent correct
+[TESTING  DATA RESULTS] = 78.1582 percent correct
+--------------------------------------------------
+time to test results: 0.000154018
+
+
+
+--------------------------------------------------------------------------------
+
+algorithm build time: 0.00161195
+[Finished the Program!]
