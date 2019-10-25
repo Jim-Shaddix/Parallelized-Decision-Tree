@@ -21,4 +21,5 @@ We than developed a Parallelized version of the program using OpenMP.
 
 # Paper
 ![report](report/report.png)
+
 [download](report/report.pdf)
